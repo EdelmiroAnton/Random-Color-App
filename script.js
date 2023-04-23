@@ -5,7 +5,7 @@ const colorText = document.getElementById("colorText");
 function randomColor() {
   let randomNumber = Math.floor(Math.random() * 1000000);
   mainBody.style.backgroundColor = `#${randomNumber}`;
-  btn.style.backgroundColor = `#${randomNumber + 272832}`;
+  btn.style.backgroundColor = `#${randomNumber + randomNumber}`;
   colorText.innerHTML = `#${randomNumber}`;
 }
 
