@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.containerTitle {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  font-size: 25px;
+  background: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  box-shadow: 0 0 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.mainBody {
+  background-color: #999999;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h4 {
+  font-weight: bold;
+  font-size: 35px;
+}
+button {
+  background: none;
+  border: none;
+  margin-top: 10px;
+  width: 20%;
+  height: 25px;
+  border-radius: 50px;
+  /* background-color: black; */
+  color: white;
+  font-style: italic;
+  box-shadow: 1px 1px 10px white;
+}
+
+button:hover {
+  cursor: pointer;
+}
