@@ -23,7 +23,7 @@
 }
 
 .mainBody {
-  background-color: red;
+  background-color: #999999;
   height: 100vh;
   display: flex;
   align-items: center;
